@@ -4,7 +4,7 @@ Este projeto é uma recriação responsiva da página inicial do Duolingo. O obj
 
 ## 🚀 Tecnologias Utilizadas
 * **HTML5:** Estruturação e semântica.
-* **CSS3:** Estilização customizada, efeitos de *hover*/*active* (botões 3D) e transições.
+* **CSS3:** Estilização customizada, efeitos de *hover*/*active*.
 * **Bootstrap 5:** Sistema de grid, classes utilitárias e responsividade (mobile-first).
 
 ## 💻 Destaques do Projeto
