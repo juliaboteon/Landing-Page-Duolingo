@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Duolingo</title>
+    <link rel="shortcut icon" href="favicon-duo.png?v=2" type="image/png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top py-1" id="navbar">
+      <div class="container">
+        <a href="#" class="navbar-brand mx-auto m-lg-0">
+          <img src="./duolingo-navbar.png" alt="Logo duolingo" />
+        </a>
+        <div class="d-none d-lg-flex" id="menuNavbar">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-uppercase" href="#inicio"
+                >Início</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold text-uppercase" href="#como-funciona"
+                >Como funciona</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fw-bold text-uppercase link-super"
+                href="#super-duolingo"
+                >Super Duolingo</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="inicio" class="container sessao-hero">
+      <div class="row align-items-center">
+        <div class="col-lg-6 text-center">
+          <img
+            src="./duo-cantando.png"
+            alt="Duo assoviando"
+            class="img-duo img-fluid"
+          />
+        </div>
+        <div class="col-lg-6 text-center text-lg mb-5 mb-lg-0 mt-4">
+          <h1 class="titulo-principal fw-bold mb-4">
+            Vamos aprender diversos idiomas de uma maneira fácil e rápida?
+          </h1>
+          <h2 class="texto-secundario text-center">
+            Com 5 minutos do seu dia, podemos aprender muito!
+          </h2>
+          <h3 class="text-center texto-terciario fw-bold">
+            Venha fazer parte!
+          </h3>
+          <div class="mt-4 d-flex flex-column gap-3 col-12 col-md-8 mx-auto">
+            <button
+              type="button"
+              class="btn btn-lg fw-bold rounded-4 py-3 btn-cadastrar"
+            >
+              Quero aprender com o Duo!
+            </button>
+            <button
+              type="button"
+              class="btn btn-lg fw-bold rounded-4 py-3 btn-login-verde"
+            >
+              Fazer Login
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="como-funciona" class="container secao-conteudo">
+      <div class="row text-center mb-2">
+        <h2 class="titulo-como-funciona fw-bold">Como funciona?</h2>
+        <p class="texto-secundario fs-5">
+          Aprender com o Duolingo é divertido e viciante!
+        </p>
+      </div>
+
+      <div class="row text-center imagens justify-content-center g-4">
+        <div class="col-lg-4 mb-4 d-flex flex-column">
+          <div class="order-3 order-lg-1 mt-4 mt-lg-0">
+            <img
+              class="img-atividade img-fluid"
+              src="./atividade-menor.PNG"
+              alt="atividade-alemão"
+            />
+          </div>
+          <h3 class="texto-terciario fw-bold order-1 order-lg-2">
+            Aulas curtas
+          </h3>
+          <p class="texto-secundario order-2 order-lg-3">
+            Lições rápidas que cabem no seu dia a dia.
+          </p>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex flex-column">
+          <div class="order-3 order-lg-1 mt-4 mt-lg-0">
+            <img
+              class="img-ofensiva img-fluid"
+              src="./ofensiva-menor.PNG"
+              alt="ofensiva"
+            />
+          </div>
+          <h3 class="texto-terciario fw-bold order-1 order-lg-2">
+            Gamificação
+          </h3>
+          <p class="texto-secundario order-2 order-lg-3">
+            Ganhe pontos, suba de nível e não perca sua ofensiva.
+          </p>
+        </div>
+
+        <div class="col-lg-4 mb-4 d-flex flex-column">
+          <div class="order-3 order-lg-1 mt-4 mt-lg-0">
+            <img
+              class="img-gratis img-fluid"
+              src="./gratis-menor.png"
+              alt="gratis"
+            />
+          </div>
+          <h3 class="texto-terciario fw-bold order-1 order-lg-2">
+            Totalmente grátis
+          </h3>
+          <p class="texto-secundario order-2 order-lg-3">
+            Aprenda idiomas sem pagar absolutamente nada.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="super-duolingo" class="container secao-conteudo">
+      <div class="row text-center mb-5 col-lg-8 mx-auto">
+        <h2 class="titulo-super fw-bold mb-3">
+          Dê um boost no seu aprendizado!
+        </h2>
+        <p class="texto-terciario fs-5">
+          Com as nossas assinaturas, você ganha
+          <strong>Energia Ilimitada</strong>. Isso significa que você pode
+          cometer quantos erros quiser sem precisar esperar recarregar para
+          continuar a aprender!
+        </p>
+      </div>
+
+      <div class="row justify-content-center g-4">
+        <div class="col-lg-4 d-flex">
+          <div class="card-plano w-100 d-flex flex-column position-relative">
+            <div class="badge-recomendado fw-bold text-white text-center py-1">
+              RECOMENDADO
+            </div>
+
+            <div class="p-4 d-flex flex-column h-100">
+              <h3 class="fw-bold" style="color: #282626">Individual</h3>
+              <p class="texto-secundario">Fale com confiança</p>
+
+              <ul class="lista-beneficios mt-3 mb-auto">
+                <li>Energia ilimitada</li>
+                <li>Videochamadas ilimitadas</li>
+                <li>Sem anúncios</li>
+              </ul>
+
+              <div class="text-center mt-4">
+                <h4 class="fw-bold preco-ano">
+                  R$ 14,99 <span class="fs-6 fw-normal">/mês</span>
+                </h4>
+                <button
+                  class="btn btn-lg fw-bold rounded-4 py-3 btn-plano w-100 mt-2"
+                >
+                  TESTAR 1 MÊS POR R$ 0
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-flex">
+          <div class="card-plano w-100 d-flex flex-column position-relative">
+            <div class="p-4 d-flex flex-column h-100">
+              <h3 class="fw-bold" style="color: #282626">Família</h3>
+              <p class="texto-secundario">Aprenda com amigos por menos</p>
+
+              <ul class="lista-beneficios mt-3 mb-auto">
+                <li>Todos os benefícios do Individual</li>
+                <li>Você e mais 5 pessoas</li>
+                <li>Só mais R$ 15 por mês</li>
+              </ul>
+
+              <div class="text-center mt-4">
+                <h4 class="fw-bold preco-ano">
+                  R$ 28,99 <span class="fs-6 fw-normal">/mês</span>
+                </h4>
+                <button
+                  class="btn btn-lg fw-bold rounded-4 py-3 btn-plano w-100 mt-2"
+                >
+                  TESTAR 1 MÊS POR R$ 0
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-flex">
+          <div class="card-plano w-100 d-flex flex-column position-relative">
+            <div class="p-4 d-flex flex-column h-100">
+              <h3 class="fw-bold" style="color: #282626">
+                Lite <span class="fs-5 fw-normal">(com anúncios)</span>
+              </h3>
+              <p class="texto-secundario">Economize com 2x mais energia</p>
+
+              <ul class="lista-beneficios mt-3 mb-auto">
+                <li>50 energias todos os dias</li>
+                <li>Recarga de energia mais rápida</li>
+              </ul>
+
+              <div class="text-center mt-4">
+                <h4 class="fw-bold preco-ano">
+                  R$ 4,99 <span class="fs-6 fw-normal">/mês</span>
+                </h4>
+                <button
+                  class="btn btn-lg fw-bold rounded-4 py-3 btn-plano w-100 mt-2"
+                >
+                  TESTAR 1 SEMANA POR R$ 0
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-duo mt-5 pt-5 pb-3">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-4 mb-4 text-center text-lg-start">
+            <img src="./duolingo-navbar.png" alt="Duolingo Logo" class="img-fluid mb-3" style="max-width: 150px;">
+            <p class="texto-secundario fw-bold">Aprenda um idioma de graça. Para sempre.</p>
+          </div>
+
+          <div class="col-lg-2 col-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4b4b4b;">Sobre</h5>
+            <ul class="list-unstyled">
+              <li><a class="link-footer" href="#">Quem somos</a></li>
+              <li><a class="link-footer" href="#">Carreiras</a></li>
+              <li><a class="link-footer" href="#">Termos</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 mb-4">
+            <h5 class="fw-bold mb-3" style="color: #4b4b4b;">Produtos</h5>
+            <ul class="list-unstyled">
+              <li><a class="link-footer" href="#super-duolingo">Super</a></li>
+              <li><a class="link-footer" href="#">Para Escolas</a></li>
+              <li><a class="link-footer" href="#">Teste de Inglês</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 mb-4 text-center text-lg-end">
+            <h5 class="fw-bold mb-3" style="color: #4b4b4b;">Baixe agora!</h5>
+            <div class="d-flex justify-content-center justify-content-lg-end gap-2">
+              <a href="https://play.google.com/store/apps/details?id=com.duolingo&hl=pt_BR" class="btn-social">Versão Android</a>
+              <a href="https://apps.apple.com/br/app/duolingo-aprenda-idiomas/id570060128" class="btn-social">Versão IOS</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center texto-secundario pb-2">
+          <small class="fw-bold">&copy; 2026 Duolingo. Desenvolvido por Julia Boteon de Mattos.</small>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
