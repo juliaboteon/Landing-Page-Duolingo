@@ -13,5 +13,5 @@ Este projeto é uma recriação responsiva da página inicial do Duolingo. O obj
 * **Customização de Framework:** Sobrescrita de estilos nativos do Bootstrap via CSS para atingir a identidade visual exata do Duolingo.
 
 ## ⚙️ Como visualizar
-Basta fazer o clone deste repositório e abrir o arquivo `atividade-landing-page.html` no seu navegador, ou acessar a demonstração ao vivo no link abaixo.
+Basta fazer o clone deste repositório e abrir o arquivo `index.html` no seu navegador, ou acessar a demonstração ao vivo no link abaixo.
 https://juliaboteon.github.io/Landing-Page-Duolingo/#super-duolingo
